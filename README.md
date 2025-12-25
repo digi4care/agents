@@ -306,3 +306,4 @@ MIT License - see [LICENSE](LICENSE) file for details.
 ## Star History
 
 [![Star History Chart](https://api.star-history.com/svg?repos=wshobson/agents&type=date&legend=top-left)](https://www.star-history.com/#wshobson/agents&type=date&legend=top-left)
+
