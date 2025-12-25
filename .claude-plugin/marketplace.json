@@ -7,7 +7,7 @@
   },
   "metadata": {
     "description": "Production-ready workflow orchestration with 67 focused plugins, 99 specialized agents, and 107 skills - optimized for granular installation and minimal token usage",
-    "version": "1.3.1"
+    "version": "1.3.2"
   },
   "plugins": [
     {
@@ -1978,7 +1978,7 @@
       "name": "functional-programming",
       "source": "./plugins/functional-programming",
       "description": "Functional programming with Elixir, OTP patterns, Phoenix framework, and distributed systems",
-      "version": "1.2.0",
+      "version": "1.2.1",
       "author": {
         "name": "Seth Hobson",
         "url": "https://github.com/wshobson"
@@ -1997,7 +1997,8 @@
       "strict": false,
       "commands": [],
       "agents": [
-        "./agents/elixir-pro.md"
+        "./agents/elixir-pro.md",
+        "./agents/haskell-pro.md"
       ]
     },
     {
@@ -2060,7 +2061,7 @@
       "name": "shell-scripting",
       "source": "./plugins/shell-scripting",
       "description": "Production-grade Bash scripting with defensive programming, POSIX compliance, and comprehensive testing",
-      "version": "1.2.1",
+      "version": "1.2.2",
       "author": {
         "name": "Ryan Snodgrass",
         "url": "https://github.com/rsnodgrass"
@@ -2085,16 +2086,16 @@
         "./agents/posix-shell-pro.md"
       ],
       "skills": [
-        "./skills/bash-defensive-patterns/SKILL.md",
-        "./skills/shellcheck-configuration/SKILL.md",
-        "./skills/bats-testing-patterns/SKILL.md"
+        "./skills/bash-defensive-patterns",
+        "./skills/shellcheck-configuration",
+        "./skills/bats-testing-patterns"
       ]
     },
     {
       "name": "developer-essentials",
       "source": "./plugins/developer-essentials",
       "description": "Essential developer skills including Git workflows, SQL optimization, error handling, code review, E2E testing, authentication, debugging, and monorepo management",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "author": {
         "name": "Seth Hobson",
         "url": "https://github.com/wshobson"
@@ -2126,11 +2127,10 @@
         "./skills/e2e-testing-patterns",
         "./skills/auth-implementation-patterns",
         "./skills/debugging-strategies",
-        "./skills/monorepo-management",
+        "./skills/monorepo-dependency-management",
         "./skills/nx-workspace-patterns",
         "./skills/turborepo-caching",
-        "./skills/bazel-build-optimization",
-        "./skills/monorepo-dependency-management"
+        "./skills/bazel-build-optimization"
       ]
     }
   ]
