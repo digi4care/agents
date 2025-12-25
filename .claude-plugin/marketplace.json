@@ -1997,7 +1997,8 @@
       "strict": false,
       "commands": [],
       "agents": [
-        "./agents/elixir-pro.md"
+        "./agents/elixir-pro.md",
+        "./agents/haskell-pro.md"
       ]
     },
     {
@@ -2085,9 +2086,9 @@
         "./agents/posix-shell-pro.md"
       ],
       "skills": [
-        "./skills/bash-defensive-patterns/SKILL.md",
-        "./skills/shellcheck-configuration/SKILL.md",
-        "./skills/bats-testing-patterns/SKILL.md"
+        "./skills/bash-defensive-patterns",
+        "./skills/shellcheck-configuration",
+        "./skills/bats-testing-patterns"
       ]
     },
     {
@@ -2126,11 +2127,10 @@
         "./skills/e2e-testing-patterns",
         "./skills/auth-implementation-patterns",
         "./skills/debugging-strategies",
-        "./skills/monorepo-management",
+        "./skills/monorepo-dependency-management",
         "./skills/nx-workspace-patterns",
         "./skills/turborepo-caching",
-        "./skills/bazel-build-optimization",
-        "./skills/monorepo-dependency-management"
+        "./skills/bazel-build-optimization"
       ]
     }
   ]
